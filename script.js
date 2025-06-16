@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   
-
+    const TELEGRAM_TOKEN = '7664895421:AAF1QezsJBk7AFhfAkS3R6s5c-ePhFb85Wc'; // вставь свой
+    const TELEGRAM_CHAT_ID = '760863418';  // вставь свой
 
     document.getElementById('modal-form').addEventListener('submit', e => {
         e.preventDefault();
