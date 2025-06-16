@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.contact-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const product = btn.getAttribute('data-product');
-        const phone = '77018154838';
+        const phone = '77084027519';
         const message = encodeURIComponent(`Здравствуйте! Интересует продукт: ${product}`);
         window.open(`https://wa.me/${phone}?text=${message}`, '_blank');
       });
@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   
-    const TELEGRAM_TOKEN = '7718462096:AAFXvLgGUS8xv019_EtfNj0xcbTQoEdsXKk'; // вставь свой
-    const TELEGRAM_CHAT_ID = '7718462096';  // вставь свой
+    const TELEGRAM_TOKEN = '7664895421:AAF1QezsJBk7AFhfAkS3R6s5c-ePhFb85Wc'; // вставь свой
+    const TELEGRAM_CHAT_ID = '760863418';  // вставь свой
 
     document.getElementById('modal-form').addEventListener('submit', e => {
         e.preventDefault();
