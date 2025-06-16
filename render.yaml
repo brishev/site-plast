@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: site-plast
-    env: php
-    plan: free
-    buildCommand: ""
-    startCommand: ""
-    rootDir: .
