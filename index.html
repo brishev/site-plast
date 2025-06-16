@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Окна Плюс</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <span>+7 (701) 815-48-38</span>
+                <a href="#" class="whatsapp-btn open-modal">Оставить заявку</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="fade-in">Металлопластиковые и алюминиевые окна и двери под ключ</h1>
+            <p class="fade-in delay">Быстрый монтаж, качественные материалы, гарантия 5 лет</p>
+            <a href="#" class="btn fade-in delay2 open-modal">Оставить заявку</a>
+        </div>
+    </section>
+
+    <section class="slider-section">
+        <div class="container">
+            <h2>Наши работы</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="image/293_original.jpg" alt="Фото 1"></div>
+                    <div class="swiper-slide"><img src="image/ceh.jpg" alt="Фото 2"></div>
+                    <div class="swiper-slide"><img src="image/plastikovye-okna.jpg" alt="Фото 3"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Наши продукты</h2>
+            <div class="product-grid">
+                <div class="product-card fade-in">
+                    <h3>Пластиковое окно</h3>
+                    <p><strong>Материал:</strong> ПВХ</p>
+                    <p><strong>Теплоизоляция:</strong> Высокая</p>
+                    <p><strong>Шумоизоляция:</strong> Средняя</p>
+                    <p><strong>Цена за м²:</strong> 6500 руб.</p>
+                    <button class="contact-btn" data-product="Пластиковое окно">Связаться</button>
+                </div>
+                <div class="product-card fade-in delay">
+                    <h3>Алюминиевое окно</h3>
+                    <p><strong>Материал:</strong> Алюминий</p>
+                    <p><strong>Теплоизоляция:</strong> Средняя</p>
+                    <p><strong>Шумоизоляция:</strong> Низкая</p>
+                    <p><strong>Цена за м²:</strong> 7800 руб.</p>
+                    <button class="contact-btn" data-product="Алюминиевое окно">Связаться</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О компании</h2>
+            <p>«Окна Плюс» — надёжный поставщик окон и дверей на рынке Казахстана. Мы предлагаем только проверенные решения и качественный монтаж с гарантией.</p>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Часто задаваемые вопросы</h2>
+            <details>
+                <summary>Сколько времени занимает монтаж?</summary>
+                <p>В среднем от 2 до 4 часов в зависимости от объема.</p>
+            </details>
+            <details>
+                <summary>Есть ли гарантия?</summary>
+                <p>Да, мы даём гарантию 5 лет на монтаж и материалы.</p>
+            </details>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <form>
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <textarea placeholder="Ваше сообщение"></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Окна Плюс. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-modal">×</span>
+            <h2>Оставьте заявку</h2>
+            <form id="modal-form">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <textarea placeholder="Комментарий"></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
